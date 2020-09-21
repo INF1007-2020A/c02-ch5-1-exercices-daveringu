@@ -9,7 +9,7 @@ def get_bill(name, data):
 	INDEX_PRICE = 2
     sum=0
     for item in data:
-        sum+=item([INDEX_QUANTITY]*)
+        sum+=item([INDEX_QUANTITY]*[])
 	return ""
 
 
