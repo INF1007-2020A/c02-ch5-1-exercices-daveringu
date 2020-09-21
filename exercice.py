@@ -15,7 +15,7 @@ def get_bill(name, data):
     result=name
     result+="\n"+f"SOUS_TOTAL {sum: >10.2f} $"
     result+="\n"+f"TAXES {sum: >10.2f} $" 
-    result+="\n"+f" {sum: >10.2f} $"  
+    result+="\n"+f"TOTAL {sum: >10.2f} $"  
     
     
     return "result"
