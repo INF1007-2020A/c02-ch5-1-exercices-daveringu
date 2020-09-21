@@ -13,7 +13,7 @@ def get_bill(name, data):
 	taxes=TAX_RATE+sum
     total=sum+taxes
     result=name
-    result+="\n"+"SOUS_T" 
+    result+="\n"+"SOUS_TOTAL []" 
     
     
     return ""
