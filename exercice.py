@@ -7,7 +7,7 @@ def get_bill(name, data):
 	INDEX_NAME = 0
 	INDEX_QUANTITY = 1
 	INDEX_PRICE = 2
-    TAX_RATE=0
+    TAX_RATE=0.15
     sum = 0
     for item in data:
         sum+=item[INDEX_QUANTITY]*item[INDEX_PRICE]
