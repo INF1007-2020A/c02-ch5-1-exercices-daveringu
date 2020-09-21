@@ -16,7 +16,7 @@ def get_bill(name, data):
     result+="\n"+f"SOUS_TOTAL {sum: >10.2f}" 
     
     
-    return ""
+    return "result"
 
 
 def format_number(number, num_decimal_digits):
