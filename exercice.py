@@ -12,7 +12,8 @@ def get_bill(name, data):
         sum+=item[INDEX_QUANTITY]*item[INDEX_PRICE]
 	taxes=TAX_RATE+sum
     total=sum+taxes
-    result=
+    result=name
+    result+=
     
     
     return ""
